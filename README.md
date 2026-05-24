@@ -1,17 +1,45 @@
-# Dashboard de Análise de Carros à Venda.
+# Dashboard Interativo - Mercado Automotivo
 
-## Descrição
-O projeto busca entender melhor as condições dos veículos anunciados em relação ao preço solicitado. 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
+## Sobre o projeto
 
-## Ferramentas 
-- Pandas
-- Streamlit
-- Plotly
+Aplicacao web interativa desenvolvida com Streamlit para analise exploratoria do mercado de veiculos usados. O dashboard transforma dados brutos em insights visuais para apoiar decisoes de compra e precificacao. Projeto desenvolvido no Bootcamp de Analise de Dados da TripleTen Brasil.
 
-## Funcionalidades 
-- Histograma que mede o estado do veículo e o valor dele, para entender se os valores mais altos oferecem ou não um carro em melhores condições. 
-- Gráfico de dispersão que mostra a comparação entre o odômetro e o preço do veículo.
+## Acesse o app online
 
-## Acesse o Dashboard 
-[Ver Dashboard online](https://dashbord-carrros-venda.onrender.com/)
+[Ver Dashboard ao vivo](https://dashbord-carrros-venda.onrender.com/)
+
+## Perguntas de negocio
+
+- Veiculos mais caros estao realmente em melhores condicoes?
+- - Qual a relacao entre quilometragem e preco de venda?
+ 
+  - ## Funcionalidades
+ 
+  - - Histograma interativo: distribuicao de precos por condicao do veiculo
+    - - Grafico de dispersao: relacao entre odometro e preco
+      - - Filtros dinamicos por tipo de veiculo
+       
+        - ## Stack utilizada
+       
+        - - Python 3
+          - - Streamlit - framework para aplicacoes de dados
+            - - Plotly Express - visualizacoes interativas
+              - - Pandas - manipulacao de dados
+               
+                - ## Como executar localmente
+               
+                - ```bash
+                  git clone https://github.com/carinelit/Projeto-Sprint-5
+                  cd Projeto-Sprint-5
+                  pip install -r requirements.txt
+                  streamlit run app.py
+                  ```
+
+                  ## Portfolio
+
+                  [linkedin.com/in/carinelitwinczuk](https://www.linkedin.com/in/carinelitwinczuk)
